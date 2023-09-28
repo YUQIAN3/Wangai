@@ -1,10 +1,10 @@
 <template>
   <div>
-    <nav>
+    <div class="nav">
       <router-link to="/">money</router-link> |
       <router-link to="/labels">labels</router-link> |
       <router-link to="/statistics">statistics</router-link>
-    </nav>
+    </div>
   </div>
 </template>
 
@@ -16,5 +16,7 @@ export default {
 </script>
 
 <style scoped>
-
+.nav{
+  border:1px solid red;
+}
 </style>

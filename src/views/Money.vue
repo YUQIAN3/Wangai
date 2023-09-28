@@ -1,8 +1,8 @@
 <template>
-  <div>
-money
- <Nav></Nav>
-  </div>
+ <div>
+   <layout><p>money.vue</p></layout>
+
+ </div>
 </template>
 
 <script lang="ts">
@@ -15,6 +15,6 @@ name:'money',
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 
 </style>
