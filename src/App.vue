@@ -5,6 +5,7 @@
 </template>
 
 <style lang="scss">
+@import 'https://at.alicdn.com/t/c/font_4275460_we61mp9aogs.css';
 *{
   margin:0;
   padding:0;

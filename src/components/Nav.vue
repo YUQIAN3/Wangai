@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="nav">
-      <router-link to="/">money</router-link> |
-      <router-link to="/labels">labels</router-link> |
-      <router-link to="/statistics">statistics</router-link>
+      <router-link to="/"><i class="iconfont icon-money"></i>money</router-link> |
+      <router-link to="/labels"><i class="iconfont icon-label"></i>labels</router-link> |
+      <router-link to="/statistics"><i class="iconfont icon-statistics"></i>statistics</router-link>
     </div>
   </div>
 </template>
@@ -19,4 +19,5 @@ export default {
 .nav{
   border:1px solid red;
 }
+
 </style>
