@@ -25,7 +25,7 @@ export default {
   border:1px solid black;
 }
 .content{
-  border:1px solid green;
+  //border:1px solid green;
   flex-grow: 1;
   overflow: auto;
 }
