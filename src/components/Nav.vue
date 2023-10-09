@@ -1,8 +1,8 @@
 <template>
     <nav>
-      <router-link to="/" class="item"><i class="iconfont icon-money"></i>记账</router-link>
-      <router-link to="/labels" class="item"><i class="iconfont icon-label"></i>标签</router-link>
-      <router-link to="/statistics" class="item"><i class="iconfont icon-statistics"></i>统计</router-link>
+      <router-link to="/money" class="item" active-class="selected"><i class="iconfont icon-money"></i>记账</router-link>
+      <router-link to="/labels" class="item" active-class="selected"><i class="iconfont icon-label"></i>标签</router-link>
+      <router-link to="/statistics" class="item" active-class="selected"><i class="iconfont icon-statistics"></i>统计</router-link>
     </nav>
 </template>
 
@@ -27,6 +27,9 @@ nav{
      > .iconfont{
      font-size:30px;
     }
+  }
+  > .item.selected{
+    color:blue;
   }
 }
 
